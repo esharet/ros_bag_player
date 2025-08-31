@@ -1,0 +1,20 @@
+<library path="lib/libbag_filter_plugin">
+  <class name="rqt_bag_filter"
+         type="rqt_bag_filter.bag_filter_plugin.BagFilterPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      RQt plugin to play rosbag files with topic filtering and YAML profiles.
+    </description>
+    <qtgui>
+      <group>
+        <label>Rosbag2</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to visualization.</statustip>
+      </group>
+      <label>Rosbag2 Player</label>
+      <icon type="theme">preferences-system-network</icon>
+      <statustip>A Python GUI plugin for Playing Filtered bags.</statustip>
+    </qtgui>
+
+  </class>
+</library>

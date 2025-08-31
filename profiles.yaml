@@ -1,0 +1,7 @@
+optical_flow:
+  - /rome/altitude
+  - /gimbal_camera/camera_info
+  - /gimbal_camera/image_raw
+  - /tf
+  - /tf_static
+  - /mavros/local_position/odom
