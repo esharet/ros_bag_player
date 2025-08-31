@@ -9,4 +9,4 @@
 * stopping bag mid-play
 
 ## Plugin appearence example
-![text](resource/image.png)
+![text](src/rqt_bag_filter/resource/image.png)
